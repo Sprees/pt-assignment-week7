@@ -224,6 +224,7 @@ styledLog('===============================', styles.c, styles.bg);
 
 // ANCHOR 13.
 // Create a function of your own that solves a problem. In comments, write what the function does and why you created it.
+// I created a function that can apply styles to console.log() and I also created an object that has my selected styles.
 function styledLog(log, ...args) {
     return console.log(`%c${log}`, args.join(''));
 }
